@@ -1,0 +1,85 @@
+
+  @media screen and (min-width: 1200px) {
+        app{
+          max-width: 1170px;
+        }
+      }
+
+* {
+background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 470px) {
+    .head{
+        font-size: 20px;
+
+    }
+    
+}
+
+
+.head {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.Text_1 {
+    margin-left: 350px;
+    font-weight: bolder;
+ 
+}
+
+.Text_2 {
+    margin-left: 350px;
+    line-height: 25px;
+    /* font-weight: bold; */
+    padding-bottom: 30px;
+
+}
+
+.header{
+    background-color: rgb(23,24,26);
+}
+.logo{    
+    background-color: rgb(23,24,26);
+}
+
+.w-container .w-row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+@media screen and (max-width:991px) {
+    .head {
+        max-width: 728px
+    }
+}
+
+.row {
+    
+    width: 650px;
+    /* height: 200px; */
+    text-align: justify;
+}
+
+.col-md-1{
+    text-align: justify;
+    justify-content: center;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.row-1{
+    width:  1100px;
+    /* height: 200px; */;
+    text-align: justify;
+
+}
